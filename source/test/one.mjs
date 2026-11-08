@@ -1,0 +1,17 @@
+import { createRequire } from "node:module";
+const { chromium } = createRequire(import.meta.url)("playwright");
+import { ORIGIN, setup } from "./harness.mjs";
+const [path = "index.html", w = "1440", h = "900", out = "test/one.png", scrollTo = "0"] = process.argv.slice(2);
+const browser = await chromium.launch({ args: ["--use-gl=swiftshader", "--enable-webgl", "--ignore-gpu-blocklist", "--enable-unsafe-swiftshader"] });
+const context = await browser.newContext({ viewport: { width: +w, height: +h } });
+await setup(context);
+const page = await context.newPage();
+page.on("pageerror", (e) => console.log("pageerror", e.message));
+page.on("console", (m) => { if (!m.text().includes("ERR_FAILED")) console.log("console", m.type(), m.text()); });
+await page.goto(`${ORIGIN}/${path}`, { waitUntil: "load" });
+await page.waitForTimeout(3500);
+await page.evaluate((y) => scrollTo(0, +y), scrollTo);
+await page.waitForTimeout(1500);
+console.log(await page.evaluate(() => ({ gl: document.querySelector("[data-hero]")?.className, ready: document.documentElement.className })));
+await page.screenshot({ path: out });
+await browser.close();

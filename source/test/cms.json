@@ -1,0 +1,542 @@
+{
+ "settings": [
+  {
+   "depositPolicy": "<p><strong>Coming soon.</strong> Elia's deposit amount, what it covers and when it can be refunded will be posted here. Until then, nothing is reserved or paid until you and Elia have talked and you have agreed to the terms in writing.</p>",
+   "heroImage": "wix:image://v1/225594_03a5bd794a824fc9ab344682614e41b1~mv2.png/225594_03a5bd794a824fc9ab344682614e41b1~mv2.png#originWidth=1376&originHeight=768",
+   "heroEyebrow": "Home-raised Yorkies, Yorkipoos and Morkies in Gilbert, Arizona",
+   "introHeadline": "A small breeder, on purpose.",
+   "email": "yoursoulmatepuppy@gmail.com",
+   "heroHeadline": "Raised in our home, one small litter at a time.",
+   "introBody": "I raise a few litters a year in my own home. Every puppy is held, handled and known by name long before going home, and every family is someone I have talked to myself.",
+   "_id": "303ae10c-fdd9-42b2-9f53-ba3c9cb68128",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:03.759Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:03.759Z"
+   },
+   "instagramUrl": "https://instagram.com/yoursoulmatepuppy",
+   "youtubeUrl": "https://www.youtube.com/channel/UCKvwwQtctNY3z3TKfxQQXmg",
+   "accentColor": "rosewood",
+   "ownerName": "Elia",
+   "careImage": "wix:image://v1/225594_a998ce51f7074fc096c245a51171a15a~mv2.png/225594_a998ce51f7074fc096c245a51171a15a~mv2.png#originWidth=1200&originHeight=896",
+   "ownerPortrait": "wix:image://v1/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png#originWidth=1200&originHeight=896",
+   "heroSubhead": "The puppies are a part of my family before they become a part of yours.",
+   "fontPairing": "journal",
+   "showPrices": false,
+   "detailImage": "wix:image://v1/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png#originWidth=1376&originHeight=768",
+   "serviceArea": "Gilbert, Arizona",
+   "ownerStory": "<p>I am the owner and caretaker of every puppy here, and their first human contact from the day they are born. The moms are my babies, and I choose each dad for a great temperament and good health.</p><p>Our puppies grow up in play pens in our family home, not cages, with plenty of socialization and cuddles. Each puppy and parent is seen by a veterinarian I trust. I screen every new family and love keeping in touch as your puppy grows.</p><p>I love what I do.</p>",
+   "facebookUrl": "https://www.facebook.com/getmysoulmate",
+   "announcement": "",
+   "phone": "480-447-0844"
+  }
+ ],
+ "puppies": [
+  {
+   "isSample": true,
+   "photo3": "wix:image://v1/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png#originWidth=1376&originHeight=768",
+   "name": "Juniper",
+   "size": "Tiny",
+   "photo": "wix:image://v1/225594_38df4ff8804340adacf379dffc53913c~mv2.png/225594_38df4ff8804340adacf379dffc53913c~mv2.png#originWidth=1200&originHeight=896",
+   "_id": "b0fe3bd5-8709-4035-9d0e-b106201bfaec",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.300Z"
+   },
+   "featured": true,
+   "vetChecked": true,
+   "mom": {
+    "isSample": true,
+    "weight": "About 5 lb",
+    "name": "Maple",
+    "photo": "wix:image://v1/225594_e2936f7117824b1eb5ecab5042dbca31~mv2.png/225594_e2936f7117824b1eb5ecab5042dbca31~mv2.png#originWidth=1200&originHeight=896",
+    "role": "Mom",
+    "_id": "71316a64-b84a-4d55-803d-eb47e313db75",
+    "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+    "_createdDate": {
+     "$date": "2026-10-24T09:29:01.934Z"
+    },
+    "_updatedDate": {
+     "$date": "2026-10-24T09:29:01.934Z"
+    },
+    "slug": "maple",
+    "coat": "Black and tan, silky",
+    "bio": "Sample text. Replace with a few lines about this mom: her personality, her routine, and what she passes on to her puppies.",
+    "sortOrder": 1,
+    "breed": "Yorkshire Terrier",
+    "temperament": "Gentle, patient, a lap dog at heart"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.300Z"
+   },
+   "slug": "juniper",
+   "sex": "Girl",
+   "coat": "Black and tan",
+   "vaccinations": "Coming soon",
+   "expectedAdultWeight": "About 4 to 6 lb",
+   "birthDate": {
+    "$date": "2026-08-30T12:00:00Z"
+   },
+   "status": "Available",
+   "story": "<p>This is a sample listing, here to show how each puppy will appear. Elia's real puppies, with their own photos and stories, are coming soon.</p>",
+   "sortOrder": 1,
+   "breed": "Yorkie",
+   "photo2": "wix:image://v1/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png#originWidth=1200&originHeight=896",
+   "recordsNote": "Medical records go home with her.",
+   "temperament": [
+    "Curious",
+    "Cuddly",
+    "Confident"
+   ],
+   "summary": "The first to the front of the pen, and the first to fall asleep in your hands."
+  },
+  {
+   "isSample": true,
+   "name": "Biscuit",
+   "size": "Small",
+   "photo": "wix:image://v1/225594_bd22212e2e66497eb5dafe1c84d9b2fd~mv2.png/225594_bd22212e2e66497eb5dafe1c84d9b2fd~mv2.png#originWidth=1200&originHeight=896",
+   "_id": "8aafeff9-cc4b-4e23-a646-31f792a1a219",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.299Z"
+   },
+   "featured": true,
+   "vetChecked": true,
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.299Z"
+   },
+   "slug": "biscuit",
+   "sex": "Boy",
+   "coat": "Apricot and cream, wavy",
+   "vaccinations": "Coming soon",
+   "expectedAdultWeight": "About 6 to 9 lb",
+   "birthDate": {
+    "$date": "2026-08-21T12:00:00Z"
+   },
+   "status": "Reserved",
+   "story": "<p>This is a sample listing, here to show how each puppy will appear. Elia's real puppies, with their own photos and stories, are coming soon.</p>",
+   "sortOrder": 2,
+   "breed": "Yorkipoo",
+   "photo2": "wix:image://v1/225594_a998ce51f7074fc096c245a51171a15a~mv2.png/225594_a998ce51f7074fc096c245a51171a15a~mv2.png#originWidth=1200&originHeight=896",
+   "recordsNote": "Medical records go home with him.",
+   "temperament": [
+    "Playful",
+    "Easygoing"
+   ],
+   "summary": "Happiest with a toy in his mouth and someone to show it to."
+  },
+  {
+   "isSample": true,
+   "photo3": "wix:image://v1/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png#originWidth=1376&originHeight=768",
+   "name": "Clover",
+   "dad": {
+    "isSample": true,
+    "weight": "About 6 lb",
+    "name": "Sully",
+    "photo": "wix:image://v1/225594_0b6fdbfe0ebd4880840ec3c752d68f02~mv2.png/225594_0b6fdbfe0ebd4880840ec3c752d68f02~mv2.png#originWidth=1200&originHeight=896",
+    "role": "Dad",
+    "_id": "15bde0b4-a278-47f7-9a0e-bf2e9b8072fc",
+    "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+    "_createdDate": {
+     "$date": "2026-10-24T09:29:01.933Z"
+    },
+    "_updatedDate": {
+     "$date": "2026-10-24T09:29:01.933Z"
+    },
+    "slug": "sully",
+    "coat": "White, soft",
+    "bio": "Sample text. Replace with a few lines about this dad and why he was chosen for his temperament and health.",
+    "sortOrder": 2,
+    "breed": "Maltese",
+    "temperament": "Easygoing, playful, good with children"
+   },
+   "size": "Tiny",
+   "photo": "wix:image://v1/225594_821e4bf94d9549b290f2159eb5ce1f77~mv2.png/225594_821e4bf94d9549b290f2159eb5ce1f77~mv2.png#originWidth=1200&originHeight=896",
+   "_id": "e357fc1a-9029-4248-ae27-9c27dfb2eea5",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.298Z"
+   },
+   "featured": true,
+   "vetChecked": true,
+   "mom": {
+    "isSample": true,
+    "weight": "About 5 lb",
+    "name": "Maple",
+    "photo": "wix:image://v1/225594_e2936f7117824b1eb5ecab5042dbca31~mv2.png/225594_e2936f7117824b1eb5ecab5042dbca31~mv2.png#originWidth=1200&originHeight=896",
+    "role": "Mom",
+    "_id": "71316a64-b84a-4d55-803d-eb47e313db75",
+    "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+    "_createdDate": {
+     "$date": "2026-10-24T09:29:01.934Z"
+    },
+    "_updatedDate": {
+     "$date": "2026-10-24T09:29:01.934Z"
+    },
+    "slug": "maple",
+    "coat": "Black and tan, silky",
+    "bio": "Sample text. Replace with a few lines about this mom: her personality, her routine, and what she passes on to her puppies.",
+    "sortOrder": 1,
+    "breed": "Yorkshire Terrier",
+    "temperament": "Gentle, patient, a lap dog at heart"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.298Z"
+   },
+   "slug": "clover",
+   "sex": "Girl",
+   "coat": "Cream and light tan",
+   "vaccinations": "Coming soon",
+   "expectedAdultWeight": "About 4 to 7 lb",
+   "birthDate": {
+    "$date": "2026-09-06T12:00:00Z"
+   },
+   "status": "Available",
+   "story": "<p>This is a sample listing, here to show how each puppy will appear. Elia's real puppies, with their own photos and stories, are coming soon.</p>",
+   "sortOrder": 3,
+   "breed": "Morkie",
+   "photo2": "wix:image://v1/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png#originWidth=1200&originHeight=896",
+   "recordsNote": "Medical records go home with her.",
+   "temperament": [
+    "Gentle",
+    "Calm",
+    "Cuddly"
+   ],
+   "summary": "Quiet and watchful, then suddenly the loudest little voice in the room."
+  }
+ ],
+ "parents": [
+  {
+   "isSample": true,
+   "weight": "About 5 lb",
+   "name": "Maple",
+   "photo": "wix:image://v1/225594_e2936f7117824b1eb5ecab5042dbca31~mv2.png/225594_e2936f7117824b1eb5ecab5042dbca31~mv2.png#originWidth=1200&originHeight=896",
+   "role": "Mom",
+   "_id": "71316a64-b84a-4d55-803d-eb47e313db75",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:01.934Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:01.934Z"
+   },
+   "slug": "maple",
+   "coat": "Black and tan, silky",
+   "bio": "Sample listing. Elia's real moms and dads, with their photos and stories, are coming soon.",
+   "sortOrder": 1,
+   "breed": "Yorkshire Terrier",
+   "temperament": "Gentle, patient, a lap dog at heart"
+  },
+  {
+   "isSample": true,
+   "weight": "About 6 lb",
+   "name": "Sully",
+   "photo": "wix:image://v1/225594_0b6fdbfe0ebd4880840ec3c752d68f02~mv2.png/225594_0b6fdbfe0ebd4880840ec3c752d68f02~mv2.png#originWidth=1200&originHeight=896",
+   "role": "Dad",
+   "_id": "15bde0b4-a278-47f7-9a0e-bf2e9b8072fc",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:01.933Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:01.933Z"
+   },
+   "slug": "sully",
+   "coat": "White, soft",
+   "bio": "Sample listing. Elia's real moms and dads, with their photos and stories, are coming soon.",
+   "sortOrder": 2,
+   "breed": "Maltese",
+   "temperament": "Easygoing, playful, good with children"
+  }
+ ],
+ "breeds": [
+  {
+   "adultWeightMaxLb": 7,
+   "name": "Yorkie",
+   "adultWeightMinLb": 4,
+   "_id": "76bad29b-373d-4626-b04a-d810e3ab9bf8",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.574Z"
+   },
+   "grooming": "Daily brushing or a short puppy cut. Regular trims.",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.574Z"
+   },
+   "slug": "yorkie",
+   "sortOrder": 1,
+   "temperament": "Bold, affectionate and alert. Bonds closely with its people.",
+   "goodFor": "Apartments and homes with older, gentle children.",
+   "summary": "A small terrier with a big personality and a fine, silky coat.",
+   "exercise": "Short walks and indoor play."
+  },
+  {
+   "adultWeightMaxLb": 12,
+   "name": "Yorkipoo",
+   "adultWeightMinLb": 4,
+   "_id": "51cc0e31-9028-4167-954c-b0ca618177ee",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.573Z"
+   },
+   "grooming": "Brushing a few times a week and a trim every six to eight weeks.",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.573Z"
+   },
+   "slug": "yorkipoo",
+   "sortOrder": 2,
+   "temperament": "Playful, clever and people-oriented.",
+   "goodFor": "First-time owners and active small households.",
+   "summary": "A Yorkshire Terrier and Toy Poodle cross, usually with a soft, wavy, low-shedding coat.",
+   "exercise": "Daily walks and games. Enjoys learning tricks."
+  },
+  {
+   "adultWeightMaxLb": 8,
+   "name": "Morkie",
+   "adultWeightMinLb": 4,
+   "_id": "1efc3a46-6fc7-4bf4-826e-d5cff7c0ea4f",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.572Z"
+   },
+   "grooming": "Brushing most days and regular trims.",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.572Z"
+   },
+   "slug": "morkie",
+   "sortOrder": 3,
+   "temperament": "Affectionate, lively and happiest close to you.",
+   "goodFor": "Companionship-focused homes where someone is often around.",
+   "summary": "A Maltese and Yorkshire Terrier cross with a soft coat and a gentle, sociable nature.",
+   "exercise": "Short walks and indoor play."
+  }
+ ],
+ "weeks": [
+  {
+   "body": "Every litter is born in our home, and I am the first person each puppy meets. Mom and babies rest in a soft play pen, never a cage, where I can watch them day and night.",
+   "photo": "wix:image://v1/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png/225594_398579b0b6f24d43a0f6aaea2b429ef7~mv2.png#originWidth=1200&originHeight=896",
+   "_id": "b158c063-54ab-43d9-94bf-500bed12a50a",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.736Z"
+   },
+   "label": "Weeks 0-2",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.736Z"
+   },
+   "sortOrder": 1,
+   "title": "Born at home"
+  },
+  {
+   "body": "Puppies start to explore, wobble and play. They hear the sounds of a real household: voices, the vacuum, the doorbell, children laughing.",
+   "photo": "wix:image://v1/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png/225594_7faa216b311d4ced871196ecbc09b0a0~mv2.png#originWidth=1376&originHeight=768",
+   "_id": "60a60961-ba20-4098-aaf2-9250fc234c83",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.735Z"
+   },
+   "label": "Weeks 3-4",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.735Z"
+   },
+   "sortOrder": 2,
+   "title": "Eyes open, world opens"
+  },
+  {
+   "body": "We begin puppy-pad training, gentle handling of paws and ears, and lots of cuddles from the family. Each puppy is seen by our trusted veterinarian.",
+   "photo": "wix:image://v1/225594_a998ce51f7074fc096c245a51171a15a~mv2.png/225594_a998ce51f7074fc096c245a51171a15a~mv2.png#originWidth=1200&originHeight=896",
+   "_id": "e5b3b05b-4313-4650-8ab2-35462f1fd71a",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.734Z"
+   },
+   "label": "Weeks 5-6",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.734Z"
+   },
+   "sortOrder": 3,
+   "title": "Good habits, early"
+  },
+  {
+   "body": "By going-home day most puppies are close to fully pad trained. They leave with their medical records, and I stay in touch as they grow.",
+   "photo": "wix:image://v1/225594_38df4ff8804340adacf379dffc53913c~mv2.png/225594_38df4ff8804340adacf379dffc53913c~mv2.png#originWidth=1200&originHeight=896",
+   "_id": "e22199d3-6667-4c87-9123-7abac836660c",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.733Z"
+   },
+   "label": "Weeks 7-8 and on",
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.733Z"
+   },
+   "sortOrder": 4,
+   "title": "Ready for you"
+  }
+ ],
+ "journey": [
+  {
+   "body": "Tell me about your home and the puppy you are hoping for. It takes about five minutes.",
+   "_id": "c66de45b-5b72-445f-972a-09cdbc868c7b",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:03.002Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:03.002Z"
+   },
+   "sortOrder": 1,
+   "title": "Ask for a free quote"
+  },
+  {
+   "body": "I read every application myself and reach out to talk, usually by phone or text.",
+   "_id": "70bd7aee-de71-4148-808b-3f693131ecd7",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:03.001Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:03.001Z"
+   },
+   "sortOrder": 2,
+   "title": "Let's talk"
+  },
+  {
+   "body": "If we are a good match, you can reserve a puppy. Deposit terms are explained before you pay anything.",
+   "_id": "f535e95a-2fa7-4d56-8535-f7d141939768",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:03Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:03Z"
+   },
+   "sortOrder": 3,
+   "title": "Reserve"
+  },
+  {
+   "body": "I share photos and updates as your puppy grows.",
+   "_id": "60f42d39-a842-404b-a444-20d483e2931b",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.999Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.999Z"
+   },
+   "sortOrder": 4,
+   "title": "Visits and updates"
+  },
+  {
+   "body": "Your puppy comes home with medical records and everything I know about them.",
+   "_id": "948d2ac5-3170-4eea-87fb-d694895ab16f",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.998Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.998Z"
+   },
+   "sortOrder": 5,
+   "title": "Going-home day"
+  },
+  {
+   "body": "Questions at two weeks or two years in, I am happy to hear from you.",
+   "_id": "c35a50ee-984b-49df-bd9f-46fb65304684",
+   "_owner": "22559450-4566-4021-8b9a-b5d944b31b32",
+   "_createdDate": {
+    "$date": "2026-10-24T09:29:02.997Z"
+   },
+   "_updatedDate": {
+    "$date": "2026-10-24T09:29:02.997Z"
+   },
+   "sortOrder": 6,
+   "title": "Always here"
+  }
+ ],
+ "faq": [
+  {
+   "_id": "faq-0",
+   "topic": "Getting a puppy",
+   "sortOrder": 10,
+   "question": "How much is a puppy?",
+   "answer": "Every puppy is different, so I don't post prices. Ask for a free quote and I'll get back to you with one. There's no obligation.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-1",
+   "topic": "Getting a puppy",
+   "sortOrder": 20,
+   "question": "Does asking for a quote reserve a puppy?",
+   "answer": "No. A quote is free and starts a conversation. A puppy is reserved only once we have talked and you have agreed to the deposit terms in writing.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-2",
+   "topic": "Getting a puppy",
+   "sortOrder": 30,
+   "question": "How do I reserve a puppy?",
+   "answer": "Start by asking for a free quote. I'll reach out by phone or text to talk about your home and the puppy you're hoping for. If we're a good match, you can reserve with a deposit. The deposit terms are explained in writing before you pay anything.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-3",
+   "topic": "Getting a puppy",
+   "sortOrder": 40,
+   "question": "Who will I be talking to?",
+   "answer": "Me. I read every request myself, and I'm the one who calls or texts you back.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-4",
+   "topic": "Getting a puppy",
+   "sortOrder": 60,
+   "question": "How much is the deposit, and is it refundable?",
+   "answer": "DRAFT, please confirm with Elia",
+   "hidden": true
+  },
+  {
+   "_id": "faq-5",
+   "topic": "Health and care",
+   "sortOrder": 110,
+   "question": "What comes home with my puppy?",
+   "answer": "Your puppy's medical records, a record of vaccinations to date, and the routine they are used to.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-6",
+   "topic": "Health and care",
+   "sortOrder": 120,
+   "question": "Are the puppies seen by a vet?",
+   "answer": "Yes. Every puppy and parent is seen by a veterinarian we trust.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-7",
+   "topic": "Visits and going home",
+   "sortOrder": 210,
+   "question": "Where are you located?",
+   "answer": "We are a home breeder in Gilbert, Arizona. The exact address is shared once a visit or pickup is arranged.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-8",
+   "topic": "Visits and going home",
+   "sortOrder": 220,
+   "question": "Can I visit before I decide?",
+   "answer": "Yes, visits are by appointment.",
+   "hidden": false
+  },
+  {
+   "_id": "faq-9",
+   "topic": "The breeds",
+   "sortOrder": 310,
+   "question": "What's the difference between a Yorkie, a Yorkipoo and a Morkie?",
+   "answer": "A Yorkie is a purebred Yorkshire Terrier. A Yorkipoo is a Yorkie crossed with a Toy or Miniature Poodle, and a Morkie is a Yorkie crossed with a Maltese.",
+   "hidden": false
+  }
+ ],
+ "testimonials": [],
+ "families": []
+}
