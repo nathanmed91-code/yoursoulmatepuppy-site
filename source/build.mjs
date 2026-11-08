@@ -42,6 +42,7 @@ function layout({ file, page, title, description, body }) {
 <link rel="stylesheet" href="css/site.css">
 <script>document.documentElement.classList.remove("no-js");try{var t=JSON.parse(localStorage.getItem("ysp-theme")||"null");if(t){var r=document.documentElement.style;for(var k in t.vars)r.setProperty(k,t.vars[k]);if(t.fontHref)document.getElementById("font-css").href=t.fontHref;}}catch(e){}</script>
 <script type="module" src="js/main.js"></script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4383c5ff5aa44ebebab56fc9ff6ce638"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
 <body data-page="${page}">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -336,11 +337,11 @@ const pages = [
 <section class="section section--tight" style="padding-top:0"><div class="wrap prose">
 <p>This notice explains what information Your Soulmate Puppy ("we", "I") collects through this website and how it is used. Questions? Email <a data-slot="email-link" href="mailto:yoursoulmatepuppy@gmail.com">yoursoulmatepuppy@gmail.com</a>.</p>
 <h2>What we collect</h2>
-<ul><li><strong>Applications and messages:</strong> your name, email, phone number, and what you tell us about your home and the puppy you're interested in.</li><li><strong>Newsletter signups:</strong> your first name and email, only if you choose to sign up.</li><li><strong>Technical data:</strong> our website host (Wix) stores a small token in your browser so the site can load content. Fonts are served by Google Fonts, which receives your IP address when the page loads. We don't run advertising trackers.</li></ul>
+<ul><li><strong>Applications and messages:</strong> your name, email, phone number, and what you tell us about your home and the puppy you're interested in.</li><li><strong>Newsletter signups:</strong> your first name and email, only if you choose to sign up.</li><li><strong>Technical data:</strong> Wix, which provides the site's content and forms, stores a small token in your browser so the site can load content. Fonts are served by Google Fonts, which receives your IP address when the page loads. We count visits with Cloudflare Web Analytics, which records the pages viewed, the site you came from and your general device type, without cookies and without tracking you across other sites. We don't run advertising trackers.</li></ul>
 <h2>How we use it</h2>
 <p>To respond to your application or questions, to arrange visits and pickup, and, if you opted in, to send our monthly email. We never sell your information.</p>
 <h2>Who processes it</h2>
-<p>Forms and email are handled by Wix.com, which stores submissions on our behalf. See <a href="https://www.wix.com/about/privacy" rel="noopener">Wix's privacy policy</a>.</p>
+<p>Forms and email are handled by Wix.com, which stores submissions on our behalf. See <a href="https://www.wix.com/about/privacy" rel="noopener">Wix's privacy policy</a>. The website itself is hosted by GitHub Pages, which keeps basic server logs (such as IP addresses) for security, and visit counts are handled by Cloudflare. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a> and <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare's privacy policy</a>.</p>
 <h2>Your choices</h2>
 <p>Every marketing email has an unsubscribe link. You can also ask us to see, correct or delete your information at any time by emailing us.</p>
 <h2>Children</h2>
