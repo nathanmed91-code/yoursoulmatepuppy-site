@@ -107,7 +107,7 @@ export function mountForm(el: HTMLElement, formId: string, opts: Options): FormS
   function successText(message?: string): string {
     const text = str(message) || (opts.variant === "newsletter"
       ? "Thank you. You're on the list, and the next note will land in your inbox."
-      : "Thank you. I've got your request and will be in touch soon with your free quote.");
+      : "Thank you. I've got your application and will be in touch soon.");
     return text.split(/\n+/).map((p) => `<p>${esc(p)}</p>`).join("");
   }
 
@@ -133,7 +133,7 @@ export function mountForm(el: HTMLElement, formId: string, opts: Options): FormS
       if ((st.outcome.action === "REDIRECT" || st.outcome.action === "CHECKOUT") && st.outcome.url) {
         if (st.outcome.newTab) open(st.outcome.url, "_blank", "noopener"); else location.assign(st.outcome.url);
       }
-      el.innerHTML = `<div class="wform__done" tabindex="-1" role="status">${successText(st.outcome.message)}${summary()}${opts.variant === "newsletter" ? "" : `<p class="muted" style="font-size:var(--step-0)">Requesting a quote doesn't reserve a puppy or commit you to anything.</p>`}</div>`;
+      el.innerHTML = `<div class="wform__done" tabindex="-1" role="status">${successText(st.outcome.message)}${summary()}${opts.variant === "newsletter" ? "" : `<p class="muted" style="font-size:var(--step-0)">Applying doesn't reserve a puppy or commit you to anything.</p>`}</div>`;
       const done = $(".wform__done", el)!;
       done.focus({ preventScroll: true });
       if (opts.variant === "application") done.scrollIntoView({ block: "center" });
@@ -155,7 +155,7 @@ export function mountForm(el: HTMLElement, formId: string, opts: Options): FormS
     const fields = st.form.fields.filter((f) => !multi || f.stepId === current.id);
     const last = st.step >= steps.length - 1;
     const submitText = st.form.submitText || (opts.variant === "newsletter" ? "Sign up" : "Send my request");
-    el.innerHTML = `<form class="wform" novalidate aria-label="${esc(opts.variant === "newsletter" ? "Monthly updates signup" : "Free quote request")}">
+    el.innerHTML = `<form class="wform" novalidate aria-label="${esc(opts.variant === "newsletter" ? "Monthly updates signup" : "Puppy application")}">
   ${multi ? `<div class="wform__steps" aria-hidden="true">${steps.map((_, i) => `<span${i <= st.step ? ' class="is-on"' : ""}></span>`).join("")}</div>
   <p class="wform__stepname" aria-live="polite">Step ${st.step + 1} of ${steps.length}${current.name ? ` · ${esc(current.name)}` : ""}</p>` : ""}
   ${fields.map((f) => field(f, st.values)).join("")}
