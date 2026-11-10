@@ -1,5 +1,5 @@
-// One puppy's page: gallery with lightbox, the facts, care notes, parents, and a free-quote ask.
-// Prices are never shown; families ask for a free quote instead.
+// One puppy's page: gallery with lightbox, the facts, care notes, parents, and a puppy-application ask.
+// Prices are never shown; families fill out a puppy application instead.
 import { getItemBy, queryItems } from "../../wix/items";
 import type { CmsItem } from "../../wix/items-core";
 import { imgSrc } from "../../wix/media";
@@ -64,10 +64,10 @@ function render(root: HTMLElement, p: CmsItem, s: Settings): void {
 
   const phone = str(s.phone);
   const cta = status === "Available"
-    ? `<div class="hero__ctas"><a class="btn" href="apply.html?puppy=${encodeURIComponent(str(p.slug))}">Get a free quote for ${esc(name)} <span class="arrow" aria-hidden="true">&rarr;</span></a>${phone ? `<a class="btn btn--ghost" href="${esc(telHref(phone))}">Call or text Elia</a>` : ""}</div>
-       <p class="muted" style="font-size:0.9rem;margin-top:16px">Quotes are free with no obligation. Asking doesn't reserve ${pronoun}.</p>`
+    ? `<div class="hero__ctas"><a class="btn" href="apply.html?puppy=${encodeURIComponent(str(p.slug))}">Start a puppy application for ${esc(name)} <span class="arrow" aria-hidden="true">&rarr;</span></a>${phone ? `<a class="btn btn--ghost" href="${esc(telHref(phone))}">Call or text Elia</a>` : ""}</div>
+       <p class="muted" style="font-size:0.9rem;margin-top:16px">Applying is free with no obligation. Applying doesn't reserve ${pronoun}.</p>`
     : status === "Reserved"
-      ? `<p class="lede" style="font-size:var(--step-0)">${esc(name)} is reserved. Tell me what you're hoping for and I'll let you know about similar puppies.</p><div class="hero__ctas"><a class="btn" href="apply.html?puppy=${encodeURIComponent(str(p.breed))}">Get a free quote</a></div>`
+      ? `<p class="lede" style="font-size:var(--step-0)">${esc(name)} is reserved. Tell me what you're hoping for and I'll let you know about similar puppies.</p><div class="hero__ctas"><a class="btn" href="apply.html?puppy=${encodeURIComponent(str(p.breed))}">Start a puppy application</a></div>`
       : `<p class="lede" style="font-size:var(--step-0)">${esc(name)} has gone home to a new family.</p><div class="hero__ctas"><a class="btn" href="puppies.html">See who's available</a></div>`;
 
   const health = [
