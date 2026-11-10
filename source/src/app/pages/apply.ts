@@ -1,4 +1,4 @@
-// The free-quote request (the Puppy Application form). A ?puppy= link names the puppy or breed,
+// The Puppy Application form. A ?puppy= link names the puppy or breed,
 // which prefills the "which puppy" question when the form has one.
 import { getItemBy } from "../../wix/items";
 import { FORMS, mountForm } from "../forms-ui";
