@@ -66,7 +66,7 @@ export default async function puppies(): Promise<void> {
       if (!skip) {
         grid.innerHTML = active.length
           ? `<div class="empty"><h3>No puppies match, yet.</h3><p class="muted">Try a different breed or size, or join the list below to hear when new litters arrive.</p><div class="hero__ctas"><button class="btn btn--ghost" type="button" data-reset>Clear filters</button><a class="btn" href="#signup-title">Hear about new litters</a></div></div>`
-          : `<div class="empty"><h3>The next litter is on its way.</h3><p class="muted">There are no puppies listed right now. Join the list below and you'll hear first, or ask for a free quote and tell me what you're hoping for.</p><div class="hero__ctas"><a class="btn" href="apply.html">Get a free quote</a></div></div>`;
+          : `<div class="empty"><h3>The next litter is on its way.</h3><p class="muted">There are no puppies listed right now. Join the list below and you'll hear first, or start a puppy application and tell me what you're hoping for.</p><div class="hero__ctas"><a class="btn" href="apply.html">Start a puppy application</a></div></div>`;
       }
       count.textContent = skip ? `${total} ${total === 1 ? "puppy" : "puppies"}` : "";
       more.hidden = !page.hasNext;
