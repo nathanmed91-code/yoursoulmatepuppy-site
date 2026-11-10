@@ -18,7 +18,7 @@ const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 
 function layout({ file, page, title, description, body }) {
   const nav = NAV.map(([href, label]) => `<a href="${href}"${href === file ? ' aria-current="page"' : ""}>${label}</a>`).join("");
-  const drawer = [["index.html", "Home"], ...NAV, ["apply.html", "Free quote"]]
+  const drawer = [["index.html", "Home"], ...NAV, ["apply.html", "Puppy Application"]]
     .map(([href, label]) => `<li><a href="${href}"${href === file ? ' aria-current="page"' : ""}>${label}</a></li>`)
     .join("");
   return `<!doctype html>
@@ -50,7 +50,7 @@ function layout({ file, page, title, description, body }) {
 <header class="site-header">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="index.html" aria-label="${SITE}, home">Your <em>Soulmate</em> Puppy</a>
-    <nav class="nav" aria-label="Main">${nav}<a class="btn btn--small" href="apply.html"${file === "apply.html" ? ' aria-current="page"' : ""}>Free quote</a></nav>
+    <nav class="nav" aria-label="Main">${nav}<a class="btn btn--small" href="apply.html"${file === "apply.html" ? ' aria-current="page"' : ""}>Puppy Application</a></nav>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="drawer"><span class="menu-toggle__label">Menu</span><span class="menu-toggle__bars" aria-hidden="true"></span></button>
   </div>
 </header>
@@ -76,7 +76,7 @@ ${body}
     <div class="grid footer__cols">
       <div class="footer__col"><h2>Visit</h2><span data-slot="service-area">Gilbert, Arizona</span><span class="muted">Visits by appointment</span></div>
       <div class="footer__col"><h2>Talk to Elia</h2><a data-slot="phone-link" href="tel:4804470844">480-447-0844</a><a data-slot="email-link" href="mailto:yoursoulmatepuppy@gmail.com">yoursoulmatepuppy@gmail.com</a></div>
-      <div class="footer__col"><h2>Explore</h2><a href="puppies.html">Puppies</a><a href="parents.html">Parents</a><a href="families.html">Puppies in new homes</a><a href="faq.html">Questions</a><a href="apply.html">Free quote</a></div>
+      <div class="footer__col"><h2>Explore</h2><a href="puppies.html">Puppies</a><a href="parents.html">Parents</a><a href="families.html">Puppies in new homes</a><a href="faq.html">Questions</a><a href="apply.html">Puppy Application</a></div>
       <div class="footer__col"><h2>Follow</h2><a data-slot="instagram" href="https://instagram.com/yoursoulmatepuppy" rel="noopener">Instagram</a><a data-slot="facebook" href="https://www.facebook.com/getmysoulmate" rel="noopener">Facebook</a><a data-slot="youtube" href="https://www.youtube.com/channel/UCKvwwQtctNY3z3TKfxQQXmg" rel="noopener">YouTube</a></div>
     </div>
     <div class="footer__legal"><span>&copy; <span data-slot="year">2026</span> Your Soulmate Puppy</span><span><a href="privacy.html">Privacy</a> &nbsp;·&nbsp; <a href="terms.html">Terms</a> &nbsp;·&nbsp; <a href="journey.html#deposit">Deposit &amp; refund policy</a></span></div>
@@ -93,7 +93,7 @@ const pages = [
   {
     file: "index.html", page: "home",
     title: "Your Soulmate Puppy | Home-raised Yorkies, Yorkipoos and Morkies in Gilbert, AZ",
-    description: "A small home breeder in Gilbert, Arizona raising Yorkies, Yorkipoos and Morkies in our family home. See available puppies and ask for a free quote.",
+    description: "A small home breeder in Gilbert, Arizona raising Yorkies, Yorkipoos and Morkies in our family home. See available puppies and start your puppy application.",
     body: `
 <section class="hero" aria-labelledby="hero-title">
   <div class="wrap">
@@ -171,7 +171,7 @@ const pages = [
 
 <section class="section" aria-labelledby="journey-title">
   <div class="wrap">
-    <div class="collection-head"><div><p class="eyebrow">The journey home</p><h2 id="journey-title" class="reveal">How it works.</h2></div><a class="btn" href="apply.html">Get a free quote ${arrow}</a></div>
+    <div class="collection-head"><div><p class="eyebrow">The journey home</p><h2 id="journey-title" class="reveal">How it works.</h2></div><a class="btn" href="apply.html">Start a puppy application ${arrow}</a></div>
     <ol class="journey" data-journey></ol>
   </div>
 </section>`,
@@ -262,7 +262,7 @@ const pages = [
   {
     file: "journey.html", page: "journey",
     title: "The journey home | Your Soulmate Puppy",
-    description: "How to bring home a puppy from Your Soulmate Puppy: ask for a free quote, talk with Elia, reserve, and going-home day. Plus answers to common questions.",
+    description: "How to bring home a puppy from Your Soulmate Puppy: start a puppy application, talk with Elia, reserve, and going-home day. Plus answers to common questions.",
     body: `
 <header class="page-head">
   <div class="wrap grid page-head--split">
@@ -270,14 +270,14 @@ const pages = [
     <p class="lede reveal" data-delay="1">No pressure and no rush. Here's what happens between your first message and your puppy's first night at home.</p>
   </div>
 </header>
-<section class="section section--tight" style="padding-top:0" aria-label="Steps"><div class="wrap"><ol class="journey journey--vertical" data-journey></ol><p style="margin-top:40px"><a class="btn" href="apply.html">Get a free quote ${arrow}</a></p></div></section>
+<section class="section section--tight" style="padding-top:0" aria-label="Steps"><div class="wrap"><ol class="journey journey--vertical" data-journey></ol><p style="margin-top:40px"><a class="btn" href="apply.html">Start a puppy application ${arrow}</a></p></div></section>
 <section class="section section--cream" aria-labelledby="faq-title"><div class="wrap"><p class="eyebrow">Questions</p><h2 id="faq-title" class="reveal" style="margin-bottom:48px">Good to know.</h2><div class="faq" data-faq></div><p style="margin-top:40px"><a class="link-arrow" href="faq.html">See every question ${arrow}</a></p></div></section>
 <section class="section" id="deposit" aria-labelledby="deposit-title"><div class="wrap grid"><div style="grid-column:1/span 4"><p class="eyebrow">Policies</p><h2 id="deposit-title" style="font-size:var(--step-3)">Deposits and refunds.</h2></div><div class="prose" style="grid-column:6/span 7" data-slot-html="depositPolicy"></div></div></section>`,
   },
   {
     file: "faq.html", page: "faq",
     title: "Questions and answers | Your Soulmate Puppy",
-    description: "Answers to common questions about getting a Yorkie, Yorkipoo or Morkie puppy from Your Soulmate Puppy in Gilbert, Arizona: quotes, reserving, vet care, visits and going home.",
+    description: "Answers to common questions about getting a Yorkie, Yorkipoo or Morkie puppy from Your Soulmate Puppy in Gilbert, Arizona: applications, reserving, vet care, visits and going home.",
     body: `
 <header class="page-head">
   <div class="wrap grid page-head--split">
@@ -297,24 +297,24 @@ const pages = [
     <div class="faq-ask__body reveal" data-delay="1">
       <p class="lede">Ask me anything. I read every message myself.</p>
       <p class="faq-ask__contact"><a data-slot="phone-link" href="tel:4804470844">480-447-0844</a><a data-slot="email-link" href="mailto:yoursoulmatepuppy@gmail.com">yoursoulmatepuppy@gmail.com</a></p>
-      <div class="hero__ctas"><a class="btn" href="apply.html">Get a free quote ${arrow}</a><a class="btn btn--ghost" href="puppies.html">Meet the puppies</a></div>
+      <div class="hero__ctas"><a class="btn" href="apply.html">Start a puppy application ${arrow}</a><a class="btn btn--ghost" href="puppies.html">Meet the puppies</a></div>
     </div>
   </div>
 </section>`,
   },
   {
     file: "apply.html", page: "apply",
-    title: "Get a free quote | Your Soulmate Puppy",
-    description: "Tell Elia about your home and the puppy you're hoping for, and she'll send a free, no-obligation quote.",
+    title: "Puppy Application | Your Soulmate Puppy",
+    description: "Tell Elia about your home and the puppy you're hoping for, and she'll reply personally by phone or text.",
     body: `
 <section class="section" aria-labelledby="apply-title">
   <div class="wrap grid">
     <div class="form-intro">
-      <p class="eyebrow">Free quote</p>
-      <h1 id="apply-title" style="font-size:var(--step-4)" class="reveal">Ask for a free quote.</h1>
-      <p class="lede reveal" data-delay="1" style="margin-top:24px">Tell me about your home and the puppy you're hoping for. I read every request myself and reply with a free quote by phone or text.</p>
+      <p class="eyebrow">Puppy Application</p>
+      <h1 id="apply-title" style="font-size:var(--step-4)" class="reveal">Apply for your puppy.</h1>
+      <p class="lede reveal" data-delay="1" style="margin-top:24px">Tell me about your home and the puppy you're hoping for. I read every application myself and reply by phone or text.</p>
       <p class="muted reveal" data-delay="2" data-puppy-note hidden></p>
-      <div class="notice reveal" data-delay="2" style="margin-top:28px"><strong>A quote is free and there's no obligation.</strong> Asking doesn't reserve a puppy. A puppy is reserved only after we've talked and you've agreed to the deposit terms.</div>
+      <div class="notice reveal" data-delay="2" style="margin-top:28px"><strong>Applying is free and there's no obligation.</strong> Applying doesn't reserve a puppy. A puppy is reserved only after we've talked and you've agreed to the deposit terms.</div>
     </div>
     <div class="form-shell"><div data-form="application"></div></div>
   </div>
@@ -359,7 +359,7 @@ const pages = [
 <section class="section section--tight" style="padding-top:0"><div class="wrap prose">
 <p>By using this website you agree to these terms.</p>
 <h2>Information on this site</h2>
-<p>Puppy listings, photos and availability are provided in good faith and may change at any time. A listing is not an offer of sale. Requesting a quote or submitting an application does not reserve a puppy or guarantee approval or availability. Quotes are free and carry no obligation.</p>
+<p>Puppy listings, photos and availability are provided in good faith and may change at any time. A listing is not an offer of sale. Submitting an application does not reserve a puppy or guarantee approval or availability. Applying is free and carries no obligation.</p>
 <h2>Reservations and deposits</h2>
 <p>A puppy is reserved only after we've spoken and you've agreed in writing to our <a href="journey.html#deposit">deposit and refund policy</a>.</p>
 <h2>Content</h2>
